@@ -1,5 +1,6 @@
-📊 Customer Churn Prediction App
-📌 Project Overview
+# 📊 Customer Churn Prediction App
+
+## 📌 Project Overview
 
 This project is an end-to-end Machine Learning application that predicts whether a customer is likely to churn (leave the company) or stay.
 
@@ -7,146 +8,122 @@ The model is trained on the Telco Customer Churn dataset from Kaggle and deploye
 
 The goal of this project is to help businesses identify customers at risk of churn and take proactive retention measures.
 
-🎯 Problem Statement
+---
+
+## 🎯 Problem Statement
 
 Customer churn is a major business problem in telecom and subscription-based industries. Acquiring new customers is more expensive than retaining existing ones.
 
 This project builds a Machine Learning classification model to:
 
-Predict customer churn (Yes/No)
+- Predict customer churn (Yes/No)
+- Calculate churn probability
+- Provide business insights
 
-Calculate churn probability
+---
 
-Provide business insights
+## 📂 Dataset Information
 
-📂 Dataset Information
+- **Dataset:** Telco Customer Churn  
+- **Source:** Kaggle  
+- **Total Records:** ~7043 customers  
+- **Features:** 20+ customer attributes  
+- **Target Variable:** Churn (Yes/No)
 
-Dataset: Telco Customer Churn
+### Important Features:
+- Tenure
+- Monthly Charges
+- Total Charges
+- Contract Type
+- Internet Service
+- Payment Method
 
-Source: Kaggle
+---
 
-Total Records: ~7000 customers
-
-Features: 20+ customer attributes
-
-Target Variable: Churn (Yes/No)
-
-Important features include:
-
-Tenure
-
-Monthly Charges
-
-Total Charges
-
-Contract Type
-
-Internet Service
-
-Payment Method
-
-🧠 Machine Learning Algorithms Used
+## 🧠 Machine Learning Algorithms Used
 
 The following classification algorithms were implemented and compared:
 
-Logistic Regression
+- Logistic Regression
+- Decision Tree Classifier
+- Random Forest Classifier
+- K-Nearest Neighbors (KNN)
 
-Decision Tree
+### ✅ Final Selected Model:
+**Random Forest Classifier** (based on performance evaluation)
 
-Random Forest
+---
 
-K-Nearest Neighbors (KNN)
-
-Final Selected Model:
-Random Forest (based on performance evaluation)
-
-📊 Model Evaluation Metrics
+## 📊 Model Evaluation Metrics
 
 The models were evaluated using:
 
-Accuracy
-
-Precision
-
-Recall
-
-F1 Score
-
-Confusion Matrix
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- Confusion Matrix
 
 These metrics help measure prediction performance and balance between false positives and false negatives.
 
-🛠️ Technologies Used
+---
 
-Python
+## 🛠️ Technologies Used
 
-Pandas
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Streamlit
+- GitHub
 
-NumPy
+---
 
-Scikit-learn
+## 🖥️ Streamlit Application Features
 
-Matplotlib / Seaborn
+- Interactive customer input form
+- Real-time churn prediction
+- Churn probability display
+- Clean and responsive user interface
+- Model integration using pickle
 
-Streamlit
+---
 
-GitHub
+## 🚀 How to Run the Project Locally
 
-🖥️ Streamlit Application Features
+1. Clone the repository:
 
-Interactive user input form
+2. Navigate into the project folder:
 
-Real-time churn prediction
+3. Install required dependencies:
 
-Churn probability display
+4. Run the Streamlit application:
 
-Clean and responsive UI
+---
 
-Model integration using pickle
-
-📁 Project Structure
-Customer_Churn_Project/
-│
-├── app.py
-├── churn_model.pkl
-├── scaler.pkl
-├── WA_Fn-UseC_-Telco-Customer-Churn.csv
-├── requirements.txt
-└── README.md
-🚀 How to Run the Project Locally
-
-Clone the repository
-
-Install required libraries:
-
-pip install -r requirements.txt
-
-Run Streamlit app:
-
-streamlit run app.py
-💡 Business Impact
+## 💡 Business Impact
 
 This system helps organizations:
 
-Identify high-risk customers
+- Identify high-risk customers
+- Reduce revenue loss
+- Improve customer retention strategies
+- Enable data-driven decision-making
 
-Reduce revenue loss
+---
 
-Improve customer retention strategies
+## 🔮 Future Enhancements
 
-Make data-driven decisions
+- Add ROC Curve visualization
+- Deploy using Streamlit Cloud
+- Add model comparison dashboard
+- Integrate real-time database support
 
-📌 Future Improvements
+---
 
-Add ROC Curve visualization
+## 👩‍💻 Author
 
-Deploy using Streamlit Cloud
-
-Add model comparison dashboard
-
-Integrate real-time database support
-
-👩‍💻 Author
-
-Deeksha Jain
-MSc Big Data Analytics
+**Deeksha Jain**  
+MSc Big Data Analytics  
